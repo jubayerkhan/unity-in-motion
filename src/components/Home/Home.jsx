@@ -16,6 +16,27 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            {/* membership section */}
+            <div className="text-center">
+                <h2 className="text-4xl font-medium">Membership Options</h2>
+                <div className="md: ml-40 flex gap-3 items-center">
+                    <div className="bg-[#F8F1E6] w-96">
+                        <p>Basic Membership</p>
+                        <p className="text-3xl font-semibold">180 CND</p>
+                        <button className="bg-black text-white">Buy Now</button>
+                    </div>
+                    <div className="bg-[#F8F1E6] w-96">
+                        <p>Basic Membership</p>
+                        <p className="text-3xl font-semibold">180 CND</p>
+                        <button className="bg-black text-white">Buy Now</button>
+                    </div>
+                    <div className="bg-[#F8F1E6] w-96">
+                        <p>Basic Membership</p>
+                        <p className="text-3xl font-semibold">180 CND</p>
+                        <button className="bg-black text-white">Buy Now</button>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
