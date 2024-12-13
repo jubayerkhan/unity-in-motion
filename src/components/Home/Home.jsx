@@ -18,22 +18,22 @@ const Home = () => {
             </div>
             {/* membership section */}
             <div className="text-center">
-                <h2 className="text-4xl font-medium">Membership Options</h2>
-                <div className="md: ml-40 flex gap-3 items-center">
+                <h2 className="text-4xl font-medium mt-10 mb-8">Membership Options</h2>
+                <div className="md: ml-40 flex gap-3 items-center mb-10">
                     <div className="bg-[#F8F1E6] w-96">
-                        <p>Basic Membership</p>
-                        <p className="text-3xl font-semibold">180 CND</p>
-                        <button className="bg-black text-white">Buy Now</button>
+                        <p className="mt-5">Basic Membership</p>
+                        <p className="text-3xl font-semibold py-3">180 CND</p>
+                        <button className="bg-black text-white mb-4 px-4">Buy Now</button>
                     </div>
                     <div className="bg-[#F8F1E6] w-96">
-                        <p>Basic Membership</p>
-                        <p className="text-3xl font-semibold">180 CND</p>
-                        <button className="bg-black text-white">Buy Now</button>
+                        <p className="mt-5">Basic Membership</p>
+                        <p className="text-3xl font-semibold py-3">180 CND</p>
+                        <button className="bg-black text-white mb-4 px-4">Buy Now</button>
                     </div>
                     <div className="bg-[#F8F1E6] w-96">
-                        <p>Basic Membership</p>
-                        <p className="text-3xl font-semibold">180 CND</p>
-                        <button className="bg-black text-white">Buy Now</button>
+                        <p className="mt-5">Basic Membership</p>
+                        <p className="text-3xl font-semibold py-3">180 CND</p>
+                        <button className="bg-black text-white mb-4 px-4">Buy Now</button>
                     </div>
                 </div>
             </div>
