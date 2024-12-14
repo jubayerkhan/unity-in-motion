@@ -1,4 +1,5 @@
 import ReactPlayer from 'react-player'
+import { NavLink } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -188,7 +189,7 @@ const Home = () => {
                 <div>
                     <h2 className="text-5xl font-semibold mb-10">Free Class</h2>
                     <p>This class is a demo class, you get all the exercises, guidelines and tips related to fitness in our fitness course. So do not delay and join our community now.</p>
-                    <button className="bg-[#B47000] rounded px-3 py-2 text-white mt-8">Join Our Community</button>
+                    <NavLink to="/class"><button className="bg-[#B47000] rounded px-3 py-2 text-white mt-8">Join Our Community</button></NavLink>
                 </div>
                 <div>
                     {/* <video className="rounded-lg" src="/src/assets/video/exercise-video.mp4"></video> */}
@@ -198,10 +199,14 @@ const Home = () => {
             {/* client section */}
             <div className="max-w-6xl ml-40 mb-20 text-center">
                 <h2 className="text-5xl font-semibold mb-10">What Clients Say</h2>
-                <div className="carousel w-full">
-                    <div id="slide1" className="carousel-item relative w-full text-center">
-                        <p className='w-[600px]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more.</p>
-                        <img className='w-24 h-24' src="/src/assets/image/slider-image.jpeg" alt="" />
+                <div className="w-full border py-6">
+                    <div id="slide1" className="relative w-full text-center">
+                        <div className='flex justify-center'>
+                            <p className='w-[600px]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more.</p>
+                        </div>
+                        <div className='flex justify-center'>
+                            <img className='w-24 h-24 rounded-full' src="/src/assets/image/slider-image.jpeg" alt="" />
+                        </div>
                         <h3 className='text-xl'>Wade Warren</h3>
                         <p>Actor</p>
                         <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
@@ -209,7 +214,7 @@ const Home = () => {
                             <a href="#slide2" className="btn btn-circle">❯</a>
                         </div>
                     </div>
-                    <div id="slide2" className="carousel-item relative w-full">
+                    {/* <div id="slide2" className="carousel-item relative w-full">
                         
                         <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                             <a href="#slide1" className="btn btn-circle">❮</a>
@@ -231,7 +236,7 @@ const Home = () => {
                             <a href="#slide3" className="btn btn-circle">❮</a>
                             <a href="#slide1" className="btn btn-circle">❯</a>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

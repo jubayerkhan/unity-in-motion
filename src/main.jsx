@@ -8,6 +8,8 @@ import {
 import Root from './components/Root/Root';
 import Home from './components/Home/Home';
 import AcademyToStudio from './components/AcademyToStudio/AcademyToStudio';
+import FreeClass from './components/FreeClass/FreeClass';
+import Cart from './components/Cart/Cart';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +23,14 @@ const router = createBrowserRouter([
       {
         path: "/academy",
         element: <AcademyToStudio></AcademyToStudio>
+      },
+      {
+        path: "/class",
+        element: <FreeClass></FreeClass>
+      },
+      {
+        path: "/cart",
+        element: <Cart></Cart>
       },
     ]
   },

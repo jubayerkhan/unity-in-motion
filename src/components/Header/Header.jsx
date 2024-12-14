@@ -44,7 +44,7 @@ const Header = () => {
                 </div>
                 <div className="navbar-end pr-40">
                     <img className="w-10 mr-2" src="/src/assets/image/search.jpg" alt="search" />
-                    <img className="w-6 mr-2" src="/src/assets/image/cart.png" alt="search" />
+                    <NavLink to="/cart"><img className="w-6 mr-2" src="/src/assets/image/cart.png" alt="search" /></NavLink>
                     <img className="w-6 mr-4" src="/src/assets/image/notification.png" alt="search" />
                     <img className="rounded-full w-11" src="/src/assets/image/porfile.jpeg" alt="" />
                 </div>
