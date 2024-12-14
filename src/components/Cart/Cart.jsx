@@ -13,7 +13,9 @@ const Cart = () => {
                 <p className="text-2xl text-gray-600">05/12/2024</p>
                 <p className="text-3xl">02</p>
                 <p className="text-3xl">150 CND</p>
-                <button className="bg-black text-white px-12 py-3">Confirm Order</button>
+                <div>
+                    <button className="bg-black text-white px-12 py-3">Confirm Order</button>
+                </div>
             </div>
             <div className="flex gap-x-24 mb-5">
                 <img className="w-56" src="/src/assets/image/e2.png" alt="" />
@@ -24,7 +26,9 @@ const Cart = () => {
                 <p className="text-2xl text-gray-600">05/12/2024</p>
                 <p className="text-3xl">02</p>
                 <p className="text-3xl">150 CND</p>
-                <button className="bg-black text-white px-12 py-3">Confirm Order</button>
+                <div>
+                    <button className="bg-black text-white px-12 py-3">Confirm Order</button>
+                </div>
             </div>
             <div className="flex gap-x-24 mb-5">
                 <img className="w-56" src="/src/assets/image/ball.png" alt="" />
@@ -35,7 +39,9 @@ const Cart = () => {
                 <p className="text-2xl text-gray-600">05/12/2024</p>
                 <p className="text-3xl">02</p>
                 <p className="text-3xl">150 CND</p>
-                <button className="bg-black text-white px-12 py-3">Confirm Order</button>
+                <div>
+                    <button className="bg-black text-white px-12 py-3">Confirm Order</button>
+                </div>
             </div>
             <div className="flex gap-x-24">
                 <img className="w-56" src="/src/assets/image/e4.png" alt="" />
@@ -46,7 +52,9 @@ const Cart = () => {
                 <p className="text-2xl text-gray-600">05/12/2024</p>
                 <p className="text-3xl">02</p>
                 <p className="text-3xl">150 CND</p>
-                <button className="bg-black text-white px-12 py-3">Confirm Order</button>
+                <div>
+                    <button className="bg-black text-white px-12 py-3">Confirm Order</button>
+                </div>
             </div>
         </div>
     );
