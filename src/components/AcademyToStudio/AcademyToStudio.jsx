@@ -7,6 +7,7 @@ import pi from "/src/assets/image/pie-chart.png"
 import decap from "/src/assets/image/decaprio.jpeg"
 import p1 from "/src/assets/image/p-1.jpeg"
 import g1 from "/src/assets/image/g-1.jpeg" 
+import g2 from "/src/assets/image/g-2.jpeg" 
 import ema from "/src/assets/image/ema.jpeg" 
 
 
@@ -156,14 +157,14 @@ const AcademyToStudio = () => {
                         </div>
                     </div>
                     <div>
-                        <img className="w-96" src="/src/assets/image/g-2.jpeg" alt="" />
+                        <img className="w-96" src={g2} alt="" />
                         <div className="flex justify-between mt-2">
                             <p className="text-2xl">Core Crushed</p>
                             <button className="bg-[#555555] text-white py-1 px-5">Details</button>
                         </div>
                     </div>
                     <div>
-                        <img className="w-96" src="/src/assets/image/g-3.jpeg" alt="" />
+                        <img className="w-96" src={g1} alt="" />
                         <div className="flex justify-between mt-2">
                             <p className="text-2xl">Sweat and Stretch</p>
                             <button className="bg-[#555555] text-white py-1 px-5">Details</button>
