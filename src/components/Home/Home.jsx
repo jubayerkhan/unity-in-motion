@@ -1,11 +1,11 @@
 import ReactPlayer from 'react-player'
 import { NavLink } from 'react-router-dom';
 import img1 from '/src/assets/image/diagonal-arrow.png'
-// import img1 from '/src/assets/image/diagonal-arrow.png'
-// import img1 from '/src/assets/image/diagonal-arrow.png'
-// import img1 from '/src/assets/image/diagonal-arrow.png'
-// import img1 from '/src/assets/image/diagonal-arrow.png'
-// import img1 from '/src/assets/image/diagonal-arrow.png'
+import cart from "/src/assets/image/cart.png"
+import ball from "/src/assets/image/ball.png"
+import e2 from "/src/assets/image/e2.png"
+import dumbell from "/src/assets/image/dumbel.png"
+import e4 from "/src/assets/image/e4.png"
 // import img1 from '/src/assets/image/diagonal-arrow.png'
 
 const Home = () => {
@@ -57,12 +57,12 @@ const Home = () => {
                     {/* card-1 */}
                     <div className="card card-compact bg-base-100 w-72 shadow-xl">
                         <div className="card-actions justify-end">
-                            <button className="btn"> <img className="w-6" src="/src/assets/image/cart.png" alt="" /> </button>
+                            <button className="btn"> <img className="w-6" src={cart} alt="" /> </button>
                         </div>
                         <figure>
                             <img
                                 className="w-48"
-                                src="/src/assets/image/ball.png"
+                                src={ball}
                                 alt="Shoes" />
                         </figure>
                         <div className="card-body">
@@ -73,12 +73,12 @@ const Home = () => {
                     {/* card-2 */}
                     <div className="card card-compact bg-base-100 w-72 shadow-xl">
                         <div className="card-actions justify-end">
-                            <button className="btn"> <img className="w-6" src="/src/assets/image/cart.png" alt="" /> </button>
+                            <button className="btn"> <img className="w-6" src={cart}alt="" /> </button>
                         </div>
                         <figure>
                             <img
                                 className="w-48"
-                                src="/src/assets/image/e2.png"
+                                src={e2}
                                 alt="Shoes" />
                         </figure>
                         <div className="card-body">
@@ -89,12 +89,12 @@ const Home = () => {
                     {/* card-3 */}
                     <div className="card card-compact bg-base-100 w-72 shadow-xl">
                         <div className="card-actions justify-end">
-                            <button className="btn"> <img className="w-6" src="/src/assets/image/cart.png" alt="" /> </button>
+                            <button className="btn"> <img className="w-6" src={cart} alt="" /> </button>
                         </div>
                         <figure>
                             <img
                                 className="w-48"
-                                src="/src/assets/image/dumbel.png"
+                                src={dumbell}
                                 alt="Shoes" />
                         </figure>
                         <div className="card-body">
@@ -105,12 +105,12 @@ const Home = () => {
                     {/* card-4 */}
                     <div className="card card-compact bg-base-100 w-72 shadow-xl">
                         <div className="card-actions justify-end">
-                            <button className="btn"> <img className="w-6" src="/src/assets/image/cart.png" alt="" /> </button>
+                            <button className="btn"> <img className="w-6" src={cart} alt="" /> </button>
                         </div>
                         <figure>
                             <img
                                 className="w-48"
-                                src="/src/assets/image/e4.png"
+                                src={e4}
                                 alt="Shoes" />
                         </figure>
                         <div className="card-body">
