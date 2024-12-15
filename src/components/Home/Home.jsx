@@ -6,7 +6,10 @@ import ball from "/src/assets/image/ball.png"
 import e2 from "/src/assets/image/e2.png"
 import dumbell from "/src/assets/image/dumbel.png"
 import e4 from "/src/assets/image/e4.png"
-// import img1 from '/src/assets/image/diagonal-arrow.png'
+import g1 from "/src/assets/image/laptop-girl.jpeg"
+import g2 from "/src/assets/image/dumbel-girl.jpeg"
+import slider from "/src/assets/image/slider-image.jpeg"
+import v from '/src/assets/video/exercise-video.mp4'
 
 const Home = () => {
     return (
@@ -123,8 +126,8 @@ const Home = () => {
             {/* why you choose us section */}
             <div className="max-w-6xl flex gap-28 ml-40 mb-20">
                 <div className="relative mr-8">
-                    <img className="w-80 rounded-lg" src="/src/assets/image/laptop-girl.jpeg" alt="" />
-                    <img className="w-80 absolute top-24 left-24 m-2 rounded-lg border-8 border-white" src="/src/assets/image/dumbel-girl.jpeg" alt="" />
+                    <img className="w-80 rounded-lg" src={g1} alt="" />
+                    <img className="w-80 absolute top-24 left-24 m-2 rounded-lg border-8 border-white" src={g2} alt="" />
                     <div className="text-center bg-[#B47000] w-20 mt-4 ml-2 rounded-md text-white">
                         <p>16+</p>
                         <p>Successful</p>
@@ -200,7 +203,7 @@ const Home = () => {
                 </div>
                 <div>
                     {/* <video className="rounded-lg" src="/src/assets/video/exercise-video.mp4"></video> */}
-                    <ReactPlayer url={'/src/assets/video/exercise-video.mp4'} controls={true} />
+                    <ReactPlayer url={v} controls={true} />
                 </div>
             </div>
             {/* client section */}
@@ -212,7 +215,7 @@ const Home = () => {
                             <p className='w-[600px]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more.</p>
                         </div>
                         <div className='flex justify-center'>
-                            <img className='w-24 h-24 rounded-full' src="/src/assets/image/slider-image.jpeg" alt="" />
+                            <img className='w-24 h-24 rounded-full' src={slider} alt="" />
                         </div>
                         <h3 className='text-xl'>Wade Warren</h3>
                         <p>Actor</p>
