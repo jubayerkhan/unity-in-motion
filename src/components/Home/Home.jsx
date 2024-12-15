@@ -1,6 +1,12 @@
 import ReactPlayer from 'react-player'
 import { NavLink } from 'react-router-dom';
 import img1 from '/src/assets/image/diagonal-arrow.png'
+// import img1 from '/src/assets/image/diagonal-arrow.png'
+// import img1 from '/src/assets/image/diagonal-arrow.png'
+// import img1 from '/src/assets/image/diagonal-arrow.png'
+// import img1 from '/src/assets/image/diagonal-arrow.png'
+// import img1 from '/src/assets/image/diagonal-arrow.png'
+// import img1 from '/src/assets/image/diagonal-arrow.png'
 
 const Home = () => {
     return (

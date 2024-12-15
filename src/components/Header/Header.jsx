@@ -1,4 +1,10 @@
 import { NavLink } from "react-router-dom";
+import logo from '/src/assets/image/logo.png'
+import search from "/src/assets/image/search.jpg" 
+import cart from "/src/assets/image/cart.png"
+import notify from "/src/assets/image/notification.png"
+import profile from "/src/assets/image/porfile.jpeg"
+
 
 const Header = () => {
 
@@ -35,7 +41,8 @@ const Header = () => {
                             {link}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl"><img className="w-40 ml-16" src="/src/assets/image/logo.png" alt="" /></a>
+                    {/* logo  */}
+                    <a className="btn btn-ghost text-xl"><img className="w-40 ml-16" src={logo} alt="" /></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -43,10 +50,13 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="navbar-end pr-40">
-                    <img className="w-10 mr-2" src="/src/assets/image/search.jpg" alt="search" />
-                    <NavLink to="/cart"><img className="w-6 mr-2" src="/src/assets/image/cart.png" alt="search" /></NavLink>
-                    <img className="w-6 mr-4" src="/src/assets/image/notification.png" alt="search" />
-                    <img className="rounded-full w-11" src="/src/assets/image/porfile.jpeg" alt="" />
+                    {/* search img  */}
+                    <img className="w-10 mr-2" src={search} alt="search" />
+                    {/* cart img  */}
+                    <NavLink to="/cart"><img className="w-6 mr-2" src={cart} alt="search" /></NavLink>
+                    {/* notification img */}
+                    <img className="w-6 mr-4" src={notify} alt="search" />
+                    <img className="rounded-full w-11" src={profile} alt="" />
                 </div>
             </div>
         </div>
