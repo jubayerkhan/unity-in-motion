@@ -1,11 +1,13 @@
 import ReactPlayer from "react-player";
+import v from '/src/assets/video/exercise-video.mp4'
+
 
 const FreeClass = () => {
     return (
         <div className="max-w-6xl ml-40">
             <h2 className="text-4xl">Free class</h2>
             <div className="">
-                <ReactPlayer className="" url={'/src/assets/video/exercise-video.mp4'} controls={true} />
+                <ReactPlayer className="" url={v} controls={true} />
             </div>
             {/* membership section */}
             <div className="flex gap-48 my-20">
