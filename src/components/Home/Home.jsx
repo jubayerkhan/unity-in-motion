@@ -1,5 +1,6 @@
 import ReactPlayer from 'react-player'
 import { NavLink } from 'react-router-dom';
+import img1 from '/src/assets/image/diagonal-arrow.png'
 
 const Home = () => {
     return (
@@ -15,7 +16,7 @@ const Home = () => {
                     <div className="max-w-md">
                         <h1 className="mb-5 text-4xl">Functional Movement. <br />
                             Anytime Anywhere.</h1>
-                        <button className="btn bg-[#B47000] text-white">Join our Class <img src="/src/assets/image/diagonal-arrow.png" alt="" /> </button>
+                        <button className="btn bg-[#B47000] text-white">Join our Class <img src={img1} alt="" /> </button>
                     </div>
                 </div>
             </div>
