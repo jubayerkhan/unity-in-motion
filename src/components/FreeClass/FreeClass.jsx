@@ -5,7 +5,7 @@ import v from '/src/assets/video/exercise-video.mp4'
 const FreeClass = () => {
     return (
         <div className="max-w-6xl ml-40">
-            <h2 className="text-4xl">Free class</h2>
+            <h2 className="text-4xl my-4">Free class</h2>
             <div className="">
                 <ReactPlayer className="" url={v} controls={true} />
             </div>
