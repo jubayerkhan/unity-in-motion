@@ -148,7 +148,7 @@ const AcademyToStudio = () => {
                     <h2 className="text-4xl font-medium my-10">More Class Like This</h2>
                     <button className="text-[#B47000] underline">View All</button>
                 </div>
-                <div className="md:flex gap-16">
+                <div className="md:flex max-w-sm md:max-w-6xl mx-auto gap-16">
                     <div>
                         <img className="w-96" src={g1} alt="" />
                         <div className="md:flex justify-between mt-2">
