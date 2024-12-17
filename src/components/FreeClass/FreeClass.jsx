@@ -4,10 +4,10 @@ import v from '/src/assets/video/exercise-video.mp4'
 
 const FreeClass = () => {
     return (
-        <div className="max-w-6xl ml-40">
+        <div className="max-w-6xl mx-auto">
             <h2 className="text-4xl my-4">Free class</h2>
-            <div className="">
-                <ReactPlayer className="" url={v} controls={true} />
+            <div className="aspect-w-16 aspect-h-9 w-full">
+                <ReactPlayer width="100%" height="100%" className="" url={v} controls={true} />
             </div>
             {/* membership section */}
             <div className="flex gap-48 my-20">

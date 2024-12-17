@@ -13,14 +13,18 @@ import v from '/src/assets/video/exercise-video.mp4'
 
 const Home = () => {
     return (
-        <div>
+        <div className='mx-auto'>
             {/* banner sectoin */}
             <div
-                className="hero min-h-screen"
+                className="hero mx-auto min-h-screen"
                 style={{
-                    backgroundImage: "url(https://images.pexels.com/photos/7031705/pexels-photo-7031705.jpeg)",
+                    backgroundImage: {},
                 }}>
                 <div className="hero-overlay bg-opacity-60"></div>
+                <video autoPlay muted loop id="myVideo">
+                    <source src={v} type='video/mp4' />
+                        Your browser does not support HTML5 video.
+                </video>
                 <div className="hero-content text-neutral-content text-center">
                     <div className="max-w-md">
                         <h1 className="mb-5 text-4xl">Functional Movement. <br />
@@ -30,9 +34,9 @@ const Home = () => {
                 </div>
             </div>
             {/* membership section */}
-            <div className="text-center">
+            <div className="text-center max-w-6xl mx-auto">
                 <h2 className="text-4xl font-medium mt-10 mb-8">Membership Options</h2>
-                <div className="md: ml-40 flex gap-3 items-center mb-10">
+                <div className="mx-auto sm:max-w-sm md:flex gap-3 items-center mb-10">
                     <div className="bg-[#F8F1E6] w-96">
                         <p className="mt-5">Basic Membership</p>
                         <p className="text-3xl font-semibold py-3">180 CND</p>
@@ -51,14 +55,14 @@ const Home = () => {
                 </div>
             </div>
             {/* shop */}
-            <div className="max-w-6xl ml-40 my-32">
+            <div className="max-w-6xl my-32 mx-auto">
                 <div className="flex justify-between">
                     <h2 className="text-5xl mb-24">Shop</h2>
                     <a className="underline text-[#B47000] text-2xl" href="">View all</a>
                 </div>
-                <div className="flex gap-4">
+                <div className="md:flex max-w-sm md:max-w-6xl mx-auto gap-4">
                     {/* card-1 */}
-                    <div className="card card-compact bg-base-100 w-72 shadow-xl">
+                    <div className="card card-compact bg-base-100 w-72 shadow-xl my-4">
                         <div className="card-actions justify-end">
                             <button className="btn"> <img className="w-6" src={cart} alt="" /> </button>
                         </div>
@@ -74,9 +78,9 @@ const Home = () => {
                         </div>
                     </div>
                     {/* card-2 */}
-                    <div className="card card-compact bg-base-100 w-72 shadow-xl">
+                    <div className="card card-compact bg-base-100 w-72 shadow-xl my-4">
                         <div className="card-actions justify-end">
-                            <button className="btn"> <img className="w-6" src={cart}alt="" /> </button>
+                            <button className="btn"> <img className="w-6" src={cart} alt="" /> </button>
                         </div>
                         <figure>
                             <img
@@ -90,7 +94,7 @@ const Home = () => {
                         </div>
                     </div>
                     {/* card-3 */}
-                    <div className="card card-compact bg-base-100 w-72 shadow-xl">
+                    <div className="card card-compact bg-base-100 w-72 shadow-xl my-4">
                         <div className="card-actions justify-end">
                             <button className="btn"> <img className="w-6" src={cart} alt="" /> </button>
                         </div>
@@ -106,7 +110,7 @@ const Home = () => {
                         </div>
                     </div>
                     {/* card-4 */}
-                    <div className="card card-compact bg-base-100 w-72 shadow-xl">
+                    <div className="card card-compact bg-base-100 w-72 shadow-xl my-4">
                         <div className="card-actions justify-end">
                             <button className="btn"> <img className="w-6" src={cart} alt="" /> </button>
                         </div>
@@ -124,10 +128,10 @@ const Home = () => {
                 </div>
             </div>
             {/* why you choose us section */}
-            <div className="max-w-6xl flex gap-28 ml-40 mb-20">
+            <div className="max-w-6xl mx-auto md:flex gap-28 mb-20">
                 <div className="relative mr-8">
-                    <img className="w-80 rounded-lg" src={g1} alt="" />
-                    <img className="w-80 absolute top-24 left-24 m-2 rounded-lg border-8 border-white" src={g2} alt="" />
+                    <img className="w-96 rounded-lg" src={g1} alt="" />
+                    <img className="w-96 absolute top-24 left-24 m-2 rounded-lg border-8 border-white" src={g2} alt="" />
                     <div className="text-center bg-[#B47000] w-20 mt-4 ml-2 rounded-md text-white">
                         <p>16+</p>
                         <p>Successful</p>
@@ -135,10 +139,10 @@ const Home = () => {
                     </div>
                 </div>
                 <div>
-                    <button className="bg-[#B47000] rounded px-3 py-2 text-white">About Us</button>
-                    <h2 className="text-5xl font-semibold">Why You Choose Us</h2>
+                    <button className="bg-[#B47000] rounded px-3 py-2 text-white my-6">About Us</button>
+                    <h2 className="text-5xl font-semibold my-5">Why You Choose Us</h2>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here, content here.</p>
-                    <div className="md:flex gap-60">
+                    <div className="md:flex gap-60 my-3">
                         <div>
                             <p className="text-4xl font-medium text-[#B47000]">1000+</p>
                             <p>Complete Class</p>
@@ -155,7 +159,7 @@ const Home = () => {
                 </div>
             </div>
             {/* question section */}
-            <div className="text-center max-w-6xl ml-40 mb-20">
+            <div className="text-center max-w-6xl mx-auto mb-20">
                 <h2 className="text-5xl font-semibold mb-10">Frequently Asked Questions</h2>
                 {/* <div className="border">
                     <p>What are the benefits of regular exercise?</p>
@@ -195,7 +199,7 @@ const Home = () => {
                 </div>
             </div>
             {/* free class section */}
-            <div className="max-w-6xl ml-40 mb-20 flex">
+            <div className="max-w-6xl mx-auto mb-20 md:flex">
                 <div>
                     <h2 className="text-5xl font-semibold mb-10">Free Class</h2>
                     <p>This class is a demo class, you get all the exercises, guidelines and tips related to fitness in our fitness course. So do not delay and join our community now.</p>
@@ -207,7 +211,7 @@ const Home = () => {
                 </div>
             </div>
             {/* client section */}
-            <div className="max-w-6xl ml-40 mb-20 text-center">
+            <div className="max-w-6xl mx-auto mb-20 text-center">
                 <h2 className="text-5xl font-semibold mb-10">What Clients Say</h2>
                 <div className="w-full border py-6">
                     <div id="slide1" className="relative w-full text-center">

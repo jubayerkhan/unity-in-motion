@@ -13,7 +13,7 @@ import ema from "/src/assets/image/ema.jpeg"
 
 const AcademyToStudio = () => {
     return (
-        <div className="max-w-7xl ml-24 my-10">
+        <div className="max-w-7xl mx-auto my-10">
             <p>Home / Demand Library</p>
             <h2 className="text-4xl font-medium my-6">Academy to Studio</h2>
             {/* navbar 2 */}

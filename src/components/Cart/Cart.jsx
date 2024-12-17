@@ -5,7 +5,7 @@ import e4 from "/src/assets/image/e4.png"
 
 const Cart = () => {
     return (
-        <div className="max-w-6xl ml-32 my-10">
+        <div className="max-w-6xl mx-auto my-10">
             <p>Home / Cart</p>
             <h2 className="text-4xl font-medium my-6">Cart history</h2>
             <div className="flex gap-24 mb-5">
