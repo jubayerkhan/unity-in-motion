@@ -33,7 +33,7 @@ const AcademyToStudio = () => {
                 </div>
             </div>
             {/* page body */}
-            <div className="grid grid-flow-row-dense grid-cols-3 gap-10">
+            <div className="md:grid grid-flow-row-dense grid-cols-3 gap-10">
                 {/* left side  */}
                 <div className="col-span-2">
                     <ReactPlayer className="" url={v} controls={true} />
@@ -144,28 +144,28 @@ const AcademyToStudio = () => {
             </div>
             {/* more section  */}
             <div>
-                <div className="flex justify-between">
+                <div className="md:flex justify-between">
                     <h2 className="text-4xl font-medium my-10">More Class Like This</h2>
                     <button className="text-[#B47000] underline">View All</button>
                 </div>
-                <div className="flex gap-16">
+                <div className="md:flex gap-16">
                     <div>
                         <img className="w-96" src={g1} alt="" />
-                        <div className="flex justify-between mt-2">
+                        <div className="md:flex justify-between mt-2">
                             <p className="text-2xl">Sweat and Stretch</p>
                             <button className="bg-[#555555] text-white py-1 px-5">Details</button>
                         </div>
                     </div>
                     <div>
                         <img className="w-96" src={g2} alt="" />
-                        <div className="flex justify-between mt-2">
+                        <div className="md:flex justify-between mt-2">
                             <p className="text-2xl">Core Crushed</p>
                             <button className="bg-[#555555] text-white py-1 px-5">Details</button>
                         </div>
                     </div>
                     <div>
                         <img className="w-96" src={g1} alt="" />
-                        <div className="flex justify-between mt-2">
+                        <div className="md:flex justify-between mt-2">
                             <p className="text-2xl">Sweat and Stretch</p>
                             <button className="bg-[#555555] text-white py-1 px-5">Details</button>
                         </div>

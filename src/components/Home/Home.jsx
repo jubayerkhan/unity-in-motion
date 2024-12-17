@@ -36,7 +36,7 @@ const Home = () => {
             {/* membership section */}
             <div className="text-center max-w-6xl mx-auto">
                 <h2 className="text-4xl font-medium mt-10 mb-8">Membership Options</h2>
-                <div className="mx-auto sm:max-w-sm md:flex gap-3 items-center mb-10">
+                <div className="mx-auto md:flex gap-3 items-center mb-10">
                     <div className="bg-[#F8F1E6] w-96">
                         <p className="mt-5">Basic Membership</p>
                         <p className="text-3xl font-semibold py-3">180 CND</p>

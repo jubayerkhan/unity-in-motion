@@ -10,7 +10,7 @@ const FreeClass = () => {
                 <ReactPlayer width="100%" height="100%" className="" url={v} controls={true} />
             </div>
             {/* membership section */}
-            <div className="flex gap-48 my-20">
+            <div className="md:flex max-w-sm md:max-w-6xl mx-auto gap-48 my-20">
                 {/* basic membership section */}
                 <div>
                     <p className="text-2xl mb-6">Basic Membership</p>
